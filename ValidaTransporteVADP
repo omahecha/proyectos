@@ -1,0 +1,5 @@
+name: Valida Transporte
+host: almptl
+
+task:
+command 'py D:/scripts/consultasqlVADP.py'
