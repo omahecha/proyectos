@@ -1,5 +1,8 @@
-name: Valida Transporte
-host: almptl
+---
+- host: all
+  task:
+  - name: Valida Transporte
+    command: 'py D:/scripts/consultasqlVADP.py'
 
-task:
-command 'py D:/scripts/consultasqlVADP.py'
+
+
